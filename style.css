@@ -1,0 +1,42 @@
+.card {
+  border-radius: 12px; /* Membuat sudut sudut menjadi bulat */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  padding: 24px; /* Jarak antara konten dengan border */
+  text-align: center; /* Posisi teks di tengah */
+  background-color: #fff; /* Warna latar belakang */
+}
+
+body {
+  display: flex; /* Aktifkan Flexbox */
+  justify-content: center; /* Posisi Tengah secara horizontal */
+  align-items: center; /* Posisi Tengah secara vertikal */
+  height: 100vh; /* Tinggi = 1 layar penuh */
+  background-color: #e8ecef; /* Warna latar belakang halaman */
+}
+
+.photo {
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+}
+
+.social-links {
+  border-top: 1px solid #e0e0e0; /* Garis pemisah */
+  padding-top: 16px; /* Jarak antara garis dan link */
+  display: flex; /* Aktifkan Flexbox */
+  justify-content: center; /* Posisi Tengah secara horizontal */
+  gap: 16px; /* Jarak antar link social media */
+  font-size: 24px; /* Ukuran font untuk icon social media */
+  color: #555; /* Warna icon social media */
+}
+
+.social-links a {
+  color: #555; /* Warna icon social media */
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease; /* Animasi transisi warna dan icon social media */
+}
+
+.social-links a:hover {
+  color: #000; /* jadi lebih gelap pas di hover mouse */
+  transform: translateY(-3px); /* Efek naik sedikit saat di hover */
+}
